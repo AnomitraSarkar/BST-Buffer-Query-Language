@@ -1,0 +1,67 @@
+TO USE THE DEMO THE VERSION OF THE PARSER
+
+OPEN DOWNLOAD ALL THE FILES, BASE.PY, SERVER.PY, BBQL_PARSER.PY ALONG WITH THE CODE.BBQL
+
+MAKE CHANGES TO THE CODE.BBQL IF YOU WANT TO, DO WITH A LITTLE PRIOR KNOWLEDGE OF THE COMMANDS
+SAVE THE FILE
+ 
+IN THE SAME DIRECTORY OPEN TERMINAL AND RUN THE FOLLOWING COMMNAND:
+>>>python bbql_parser.py
+
+IT WILL COMPILE AND RUN YOUR PROVIDE DATABASE AND TABLE CODES AND FORMULATE THE REQUIRED
+
+LOOKUP THE TABLE BELOW FOR COMMANDS TO BE USED
+
+
+COMMANDS AVAILABLE LIST: 
+
+> CREATE DB <DATABASENAME>
+> CREATE TABLE <TABLENAME>
+> USE <DATABASENAME>
+> CREATE TABLE <TABLENAME> = <COL1> <COL2> <COL3> = KEY <PRIMARYKEY_COLUMN>
+> DESCRIBE <TABLENAME>
+> LOAD <TABLENAME>
+> SAVE <TABLENAME>
+> INSERT <COL1DATA> <COL2DATA> <COL3DATA>
+> DELETE <PRIMARYKEY_COLUMNDATA>
+> SEARCH <PRIMARYKEY_COLUMNDATA>
+> SHOW 
+
+
+
+
+
+binary search tree buffer based dynamic database software
+
+most important aspect of buffer are two functions load and save
+
+when you create database and tables the data to make changes you just have to 
+call the load function and then make changes accordingly
+
+when you print the data you print the buffer data and you save you call the
+save function which will reflect the final changes in the database
+
+Case Independent
+
+All the given below functionalities work on the concepts of a runtime buffer load and save architecture.
+> insertion
+> searching
+> deletion
+
+> modification and edit later to be included
+
+(the load data operation will be done on the basis of initial setters of the database) so if the file has lets say 5 data columns it will load the 5 data columns into the buffers irrespective of what the file actually contains
+
+one advantage of this is coherency is maintained and admin control too
+so if it is said that there is 4 columns for this data base no one can remove that
+
+> the dynamic database use is very efficient in nature for transference and server communication. even if you have to make a particular setter table already.
+> no chance of data redundancy and irregularities 
+> full security of data is maintained no deadlock occurrences
+
+
+
+
+// create database showcase functions and create functions for modifications and editable
+// create parser
+// arduino submit

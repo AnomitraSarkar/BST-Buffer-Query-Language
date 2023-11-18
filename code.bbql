@@ -1,0 +1,13 @@
+create db students
+use students
+create table attendance = regno name status = key regno
+load attendance
+insert 22bce1382 sarkar p
+insert 22bai1243 anomitra a
+insert 21blc5416 kasar p
+show
+delete 21blc5416
+show
+search 23bba1490
+search 22bce1382
+save attendance
